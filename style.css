@@ -224,4 +224,4 @@ section .text-container .text-box h3{
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
-} 
+}
