@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Project</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container" id="offer">
             <a class="navbar-brand " href="#name-main">
@@ -30,263 +31,623 @@
             <div class="navbar navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#offer">Oferta</a>
+                        <a class="nav-link" href="" data-translate="about">about</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#team">Zespół</a>
+                        <a class="nav-link" href="" data-translate="history">history</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#questions">Pytania</a>
+                        <a class="nav-link" href="" data-translate="offer">offer</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#contact">Kontakt</a>
+                        <a class="nav-link" href="" data-translate="opinion">opinion</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="" data-translate="contact">contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <nav class="name" id="name-main">
-        <div class="container-name-title">Kancelaria Prawna</div>
-    </nav>
-
-    <section>
-        <div class="container reveal" id="text">
-            <p>Kancelaria prawna zajmowuje się sprawami z wielu dziedzin prawa, w szczególności z zakresu prawa
-                cywilnego, prawa spadkowego, prawa rodzinnego, prawa pracy i ubezpieczeń społecznych. Obsługa prawna
-                dostosowana jest do indywidualnych potrzeb każdego Klienta.</p>
+    <section class="name">
+        <h1 class="nameTitle" data-translate="nameTitle">We're Here to Help</h1>
+        <div class="container text-center mt-4">
+            <a href="#about" id="nameExplore" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    <path fill-rule="evenodd"
+                        d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                </svg>
+                explore</a>
         </div>
     </section>
 
-    <section id="offer">
-        <div class="container reveal">
-            <div class="title-offer">Oferta</div>
-            <div class="text-container">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Prawo Cywilne
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Sprawy o odszkodowanie i zadośćuczynienie</li>
-                                    <li>Sprawy o ochronę dóbr osobistych</li>
-                                    <li>Postępowanie egzekucyjne - sporządzanie pism do komorników sądowych o egzekucję
-                                    </li>
-                                    <li>Sprawy o rozliczanie korzyści i nakładów na nieruchomość</li>
-                                    <li>Zakładanie i uzgadnianie treści ksiąg wieczystych, wpisy w księgach wieczystych
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Prawo Spadkowe
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Stwierdzenia nabycia spadku na podstawie ustawy</li>
-                                <li>Zmiany postanowienia stwierdzającego nabycie spadku</li>
-                                <li>Odrzucenia spadku</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Prawo Rodzinne
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Rozwód</li>
-                                <li>Eksmisja współmałżonka</li>
-                                <li>Podział majątku wspólnego małżonków</li>
-                                <li>Ustalenie kontaktów z dziećmi</li>
-                                <li>Ustanowienie rodziny zastępczej</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Prawo Pracy
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Sprawy o odszkodowanie</li>
-                                <li>Sprawy o dyskryminację i mobbing</li>
-                                <li>Odszkodowania i świadczenia z tytułu wypadków przy pracy i chorób zawodowych</li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section id="about">
+        <div class="row">
+            <div class="col" id="title">
+                <h1 class="aboutTitle">Liberty Legal Solutions</h1>
+            </div>
+            <div class="col" id="aboutText">
+                <h5 id="aboutTitleSecond">Welcome to <span class="green">Liberty Legal Solutions</span></h5>
+                <div>"Liberty Legal Solutions" is a law office committed to safeguarding individual rights and freedoms.
+                    With a focus on legal expertise and innovative solutions, this firm passionately advocates for
+                    justice and liberty in various legal matters.</div>
             </div>
         </div>
-
     </section>
 
-    <nav id="team">
-        <div class="container reveal">
-            <div id="carouselExampleCaptions" class="carousel slide">
+    <section id="media">
+        <h1 id="mediaTitle">Media Mentions & Publications</h1>
+        <ul id="mediaUl">
+            <li class="mediaLi">Forbes</li>
+            <li class="mediaLi">Business insider</li>
+            <li class="mediaLi">Inc.</li>
+            <li class="mediaLi">The Huffington Post</li>
+        </ul>
+    </section>
+
+    <section id="history">
+        <h1 id="historyTitle">PRACTICE HISTORY</h1>
+        <br>
+        <h5 class="green">More Than 100 Years of Experience</h5>
+        <br>
+        <p style="text-align: justify;">"Liberty Legal Solutions" was founded in the early 20th century by two visionary
+            attorneys, William Harrison and Emily Sinclair. Inspired by the social and political changes of the time,
+            they established the firm in the heart of a bustling city.
+            During its early years, the firm played a significant role in advocating for civil rights, women's suffrage,
+            and labor rights. Their dedication to these causes earned them a reputation as champions of justice and
+            liberty. The firm's commitment to defending the marginalized and oppressed communities in the face of
+            adversity was unwavering.</p>
+        <p style="text-align: justify;">Over the decades, "Liberty Legal Solutions" continued to evolve, adapting to the
+            changing legal landscape while remaining true to its founding principles. The firm's attorneys took on
+            landmark cases that shaped legal precedents and influenced societal progress.
+            Today, "Liberty Legal Solutions" stands as a respected institution with a legacy of defending civil
+            liberties, championing social justice, and providing legal solutions that have a lasting impact on the
+            community it serves. It remains committed to its historical mission of upholding liberty and justice for
+            all.</p>
+        <div id="containerHistory">
+            <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="700" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <img src="./jeremy-mcgilvrey-Mum-4dB0VsE-unsplash.jpg" alt="" id="img-member">
-                            <h1>First Name</h1>
-                            <h5>Radca prawny</h5>
-                            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Fuga suscipit harum aliquam amet neque veritatis sed ut architecto, deleniti praesentium
-                                minima nulla magnam officia labore, id doloremque, sequi nobis illo?</p>
-                            <br>
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-telephone" viewBox="0 0 16 16">
-                                    <path
-                                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                </svg> 123-456-789
-                                <br>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-envelope" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                                </svg> blabla@gmail.com
-                            </div>
-                            <br>
-                            <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModal">
-                                Pełna biografia
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Zamknij</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="./image/annie-spratt-BcGoZXjyPzA-unsplash.jpg" width="0" height="0" class="d-block w-100"
+                            alt="...">
+                        <h1 id="historyTitleCarousel">1920</h1>
+                        <p id="historyTextCarousel">The law firm "Liberty Legal Solutions" was founded by attorneys
+                            William Harrison and Emily Sinclair</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="500" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Second slide label</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                        <img src="./image/annie-spratt-BcGoZXjyPzA-unsplash.jpg" width="0" height="0" class="d-block w-100"
+                            alt="...">
+                        <h1 id="historyTitleCarousel">1945</h1>
+                        <p id="historyTextCarousel">Emily Sinclair becomes the first female managing partner of the
+                            firm, breaking gender barriers in the legal profession.</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="500" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Third slide label</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                        <img src="./image/annie-spratt-BcGoZXjyPzA-unsplash.jpg" width="0" height="0" class="d-block w-100"
+                            alt="...">
+                        <h1 id="historyTitleCarousel">1980</h1>
+                        <p id="historyTextCarousel">The firm expands its practice areas to include labor law,
+                            environmental law, and consumer protection, reflecting its commitment to addressing emerging
+                            legal issues.</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-    </nav>
+    </section>
 
-    <section>
-        <div class="container reveal" id="questions">
-            <h2>Jakieś pytania?</h2>
-            <div class="text-container">
-                <div class="container">
+    <section id="offer">
+        <div id="containerOffer">
+            <div class="row">
+                <div class="col">
+                    <h1 id="titleOffer">labor law</h1>
+                    <div id="textOffer">
+                        Are you facing labor-related challenges or seeking expert advice on employment matters? "Liberty
+                        Legal Solutions" is here to support you. For a limited time, we're offering a free, confidential
+                        consultation with our experienced labor law attorneys. Our team specializes in employment
+                        contracts, workplace discrimination, wage disputes, wrongful termination, and more. We are
+                        committed to swift, effective resolution while upholding your rights. Contact us today to
+                        schedule your consultation and protect your workplace rights.
+                    </div>
+                </div>
+                <div class="col" id="offerColImg">
+                    <img src="./image/scott-graham-OQMZwNd3ThU-unsplash.jpg" width="400px" height="400px" alt=""
+                        id="offerImgFirst">
+                </div>
+            </div>
+
+        </div>
+        <div id="containerOffer">
+            <div class="row">
+                <div class="col" id="offerColImg">
+                    <img src="./image/liv-bruce-odIhQypCuUk-unsplash.jpg" width="400px" height="400px" alt=""
+                        id="offerImgSecond">
+                </div>
+                <div class="col">
+                    <h1 id="titleOffer">family law</h1>
+                    <div id="textOffer">
+                        Are you facing family-related legal challenges and seeking expert guidance? "Liberty Legal
+                        Solutions" is here to assist you. For a limited time, we're pleased to offer a free,
+                        confidential consultation with our experienced family law attorneys. Our team specializes in
+                        divorce, child custody, spousal support, adoption, and more. We are committed to providing you
+                        with personalized legal solutions that prioritize your family's well-being and legal rights.
+                        Contact us today to schedule your consultation and take the first step towards resolving your
+                        family law matters with confidence.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div id="containerOffer">
+            <div class="row">
+                <div class="col">
+                    <h1 id="titleOffer">civil law</h1>
+                    <div id="textOffer">
+                        Are you facing civil legal challenges and seeking expert guidance? "Liberty Legal Solutions" is
+                        here to assist you. For a limited time, we're pleased to offer a free, confidential consultation
+                        with our experienced civil law attorneys. Our team specializes in a wide range of civil law
+                        matters, including personal injury, contract disputes, property disputes, and more. We are
+                        dedicated to providing you with personalized legal solutions that address your unique needs and
+                        objectives. Contact us today to schedule your consultation and take the first step toward
+                        resolving your civil law matters with confidence.
+                    </div>
+                </div>
+                <div class="col" id="offerColImg">
+                    <img src="./image/scott-graham-EPppwcVTZEo-unsplash.jpg" width="400px" height="400px" alt=""
+                        id="offerImgFirst">
+                </div>
+            </div>
+        </div>
+        <div id="containerOffer">
+            <div class="row">
+                <div class="col" id="offerColImg">
+                    <img src="./image/trent-erwin-UgA3Xvi3SkA-unsplash.jpg" width="400px" height="400px" alt=""
+                        id="offerImgSecond">
+                </div>
+                <div class="col">
+                    <h1 id="titleOffer">administrative law</h1>
+                    <div id="textOffer">
+                        Are you facing administrative legal challenges and seeking expert guidance? "Liberty Legal
+                        Solutions" is here to assist you. For a limited time, we're pleased to offer a free,
+                        confidential consultation with our experienced administrative law attorneys. Our team
+                        specializes in various administrative law matters, including regulatory compliance, government
+                        agency interactions, and administrative hearings. We are dedicated to providing you with
+                        personalized legal solutions that navigate the complexities of administrative processes. Contact
+                        us today to schedule your consultation and take the first step toward resolving your
+                        administrative law matters with confidence.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contactUs">
+        <p>The internet can't answer all your questions, turn to the experts instead. Contact our team to speak with one
+            of our attorneys and learn how we can help you.</p>
+        <a href="#contact" class="contactUsButton">Contact us</a>
+    </section>
+
+
+
+    <section id="opinion">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="border-radius: 50px;">
+                <div class="carousel-item active">
+                    <img src="./image/background.png" width="100px" height="500px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="opinionTitle" style="text-transform: uppercase;">James
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </h5>
+
+                        <h6 id="opinionTitle">Car Accident Case</h6>
+                        <p id="opinionText">I was in a terrible car wreck back in June. I found Liberty Legal Solutions and was
+                            put into contact with Emily. She assisted me in finding and receiving medical treatment to
+                            treat my injuries so that I could return to work. She also fought for the insurance company
+                            to pay a settlement to cover all of my expenses from the car wreck, my lost wages from
+                            missing work, and compensation for my pain. I could not imagine having a better attorney for
+                            this situation.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/background.png" width="500px"
+                        height="500px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="opinionTitle" style="text-transform: uppercase;">Steven
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </h5>
+                        <h6 id="opinionTitle">Child Support Case</h6>
+                        <p id="opinionText">Liberty Legal Solutions did an amazing job on my case. They were able to
+                            resolve my family issue and allow me to see my children on a weekly basis. Emily and
+                            William walked me through the process and fought for me in court. I would highly recommend
+                            this firm for any family law situation.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/background.png" width="500px"
+                        height="500px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="opinionTitle" style="text-transform: uppercase;">Alan
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </h5>
+                        <h6 id="opinionTitle">Slip and Fall Case</h6>
+                        <p id="opinionText">If you live in Dallas and need a personal injury lawyer, I could not
+                            recommend Liberty Legal Solutions more! Professional, communicative, and hardworking, I never
+                            anticipated feeling so cared for and heard by a lawyer!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 id="servicesTitle">Personal Injury Services</h1>
+        <br>
+        <p id="servicesText">If you've sustained a physical or psychological injury, as well as financial loss, after
+            falling victim to
+            the carelessness or negligence of any individual or organization, you have the right to file a claim for
+            compensation in Texas. At Liberty Legal Solutions, our DFW law firm improves the chances of getting the money you
+            deserve.</p>
+        <p id="servicesText">Our commitment and wealth of experience in complex litigation ensures you receive
+            compensation to cover
+            medical expenses, lost incomes, emotional distress, and other damages. As passionate and dedicated personal
+            injury lawyers in the Dallas-Fort Worth Metropolitan Area, the results of our countless successful cases
+            speak for themselves.</p>
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample" id="servicesButton">
+                + All Personal Injury Services
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body" id="injuryServicesText">
+                <div class="row">
+                    <div class="col" id="injuryServicesCol">Car Accidents</div>
+                    <div class="col" id="injuryServicesCol">Slip and Fall</div>
+                    <div class="col" id="injuryServicesCol">Motorcycle Accidents</div>
+                    <div class="col" id="injuryServicesCol">Military Burn Pit</div>
+                </div>
+                <div class="row">
+                    <div class="col" id="injuryServicesCol">Bus Accidents</div>
+                    <div class="col" id="injuryServicesCol">Work Injuries</div>
+                    <div class="col" id="injuryServicesCol">Bicycle Accidents</div>
+                    <div class="col" id="injuryServicesCol">Oil Rig Injury</div>
+                </div>
+                <div class="row">
+                    <div class="col" id="injuryServicesCol">Construction Accidents</div>
+                    <div class="col" id="injuryServicesCol">Dog Bites</div>
+                    <div class="col" id="injuryServicesCol">Uber & Lyft Accidents</div>
+                    <div class="col" id="injuryServicesCol">Truck Accidents</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="row">
+            <div class="col" id="containerTeam">
+                <img src="./image/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="" id="teamImg" width="500px"
+                    height="600px">
+            </div>
+            <div class="col" id="teamInfo">
+                <h1 id="titleTeamInfo">William Harrison</h1>
+                <div id="teamRole">Senior Partner</div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Awards</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        William Harrison is a seasoned attorney. With over three decades of experience in the legal
+                        field, he is a respected figure in the legal community and a key driving force behind the firm's
+                        success.
+                        <br>
+                        Mr. Harrison specializes in civil rights law, constitutional law, and complex litigation. His
+                        in-depth knowledge of these areas has earned him a reputation as a formidable advocate for
+                        justice and civil liberties. He has successfully represented clients in high-profile cases that
+                        have had a lasting impact on legal precedents.
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <ul>
+                            <li>Lifetime Achievement Award in Civil Rights Advocacy</li>
+                            <li>Justice Advocate of the Year</li>
+                            <li>Humanitarian of the Year</li>
+                            <li>Outstanding Mentorship Award</li>
+                            <li>Pro Bono Champion</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg> (903) 402-4033
+                            <br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg> williamharrison@libertylegalsolutions.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col" id="teamInfo">
+                <h1 id="titleTeamInfo">Emily Sinclair</h1>
+                <div id="teamRole">Managing Partner</div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Awards</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        Emily Sinclair is a highly accomplished attorney and serves as the Managing Partner of "Liberty
+                        Legal Solutions." With a career spanning more than two decades, she has earned a reputation as a
+                        legal powerhouse and a trailblazer in the field.
+                        <br>
+                        Ms. Sinclair specializes in family law, particularly in cases involving complex divorce
+                        proceedings, child custody disputes, and spousal support negotiations. Her extensive experience
+                        and deep understanding of family dynamics make her a sought-after advocate for her clients.
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <ul>
+                            <li>Family Law Advocate of the Year</li>
+                            <li>Women in Law Leadership Award</li>
+                            <li>Ethics and Integrity Award</li>
+                            <li>Legal Mentor of the Year</li>
+                            <li>Family Law Excellence Award</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg> (903) 402-4033
+                                <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg> emilysinclair@libertylegalsolutions.com
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="containerTeam">
+                <img src="./image/ph-m-duy-quang-QGr6H7pri-Q-unsplash.jpg" alt="" id="teamImg" width="500px"
+                    height="600px">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="row">
+            <div class="col">
+                <h1 id="titleContact">Schedule a Consultation</h1>
+            </div>
+            <div class="col">
+                <div class="containerForm">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control shadow-sm bg-white rounded" id="name"
-                                placeholder="Enter your name">
+                                placeholder="Your Name">
                         </div>
+                        <br>
                         <div class="form-group">
                             <input type="email" class="form-control shadow-sm bg-white rounded" id="email"
-                                placeholder="Enter your email">
+                                placeholder="Your Email">
                         </div>
+                        <br>
                         <div class="form-group">
                             <input type="text" class="form-control shadow-sm bg-white rounded" id="topic"
-                                placeholder="Enter your topic">
+                                placeholder="Topic">
                         </div>
+                        <br>
                         <div class="form-group">
                             <textarea class="form-control shadow bg-white rounded" id="message" rows="4"
-                                placeholder="Enter your message"></textarea>
+                                placeholder="Additional Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-secondary" id="button-questions">Send</button>
+                        <br>
+                        <button type="submit" class="btn btn-secondary" id="buttonForm">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="opening-hours">
-            <p>Pn. - Pt.: 8.00-16.00</p>
-            <p>Sob.: nieczynne</p>
+    <footer>
+        <div class="row">
+            <div class="col" id="colFooter">
+                <div>123 Freedom Boulevard, Suite 200, Libertyville, Lawland 98765, United States</div>
+                <div id="number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> 913-565-8000
+                </div>
+            </div>
+            <div class="col" id="colFooter">
+                Monday - Friday: 9:00 AM - 5:00 PM
+                <br>
+                Saturday, Sunday: Closed
+            </div>
         </div>
-        <div class="address">
-            <p>ul. Bora Komorowskiego 2/2,</p>
-            <p>30-045 Kraków</p>
+        <div id="copyright">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-c-circle"
+                viewBox="0 0 16 16">
+                <path
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+            </svg> Liberty Legal Solutions
         </div>
-        <div class="contact">
-            <p>sekretariat@kancelaria.pl</p>
-            <p>123-456-789</p>
+    </footer>
+
+    <section class="fixed-bottom d-none d-sm-block">
+        <div class="container text-center">
+            <button id="scrollToTop">Scroll to Top</button>
         </div>
     </section>
-    <footer>
-    </footer>
-    <button id="scrollToTop">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-            class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-            <path
-                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-        </svg>
-    </button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+    </script>
     <script src="./index.js"></script>
 </body>
 
