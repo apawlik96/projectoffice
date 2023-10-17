@@ -4,289 +4,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Project</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./_ICONFONT/styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container" id="offer">
-            <a class="navbar-brand " href="#name-main">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-buildings" viewBox="0 0 16 16">
-                    <path
-                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z" />
-                    <path
-                        d="M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z" />
-                </svg>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#offer">Oferta</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#team">Zespół</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#questions">Pytania</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+        <div class="navbar navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section-history" data-translate="history"></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section-team" data-translate="team"></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section-offer" data-translate="offer"></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section-opinion" data-translate="opinion"></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section-contact" data-translate="contact"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="set-lang">
+            <button type="button" class="btn btn-dark" id="englishButton">EN</button>
+            <button type="button" class="btn btn-dark" id="polishButton">PL</button>
+        </div>
         </div>
     </nav>
 
-    <nav class="name" id="name-main">
-        <div class="container-name-title">Kancelaria Prawna</div>
-    </nav>
-
-    <section>
-        <div class="container reveal" id="text">
-            <p>Kancelaria prawna zajmowuje się sprawami z wielu dziedzin prawa, w szczególności z zakresu prawa
-                cywilnego, prawa spadkowego, prawa rodzinnego, prawa pracy i ubezpieczeń społecznych. Obsługa prawna
-                dostosowana jest do indywidualnych potrzeb każdego Klienta.</p>
+    <header class="header" id="section-header">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Liberty Legal Solutions</span>
+                <span class="heading-primary--sub" data-translate="nameTitle"></span>
+            </h1>
+            <a href="#section-history" class=" btn btn--white" data-translate="explore"></a>
         </div>
-    </section>
+    </header>
 
-    <section id="offer">
-        <div class="container reveal">
-            <div class="title-offer">Oferta</div>
-            <div class="text-container">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Prawo Cywilne
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Sprawy o odszkodowanie i zadośćuczynienie</li>
-                                    <li>Sprawy o ochronę dóbr osobistych</li>
-                                    <li>Postępowanie egzekucyjne - sporządzanie pism do komorników sądowych o egzekucję
-                                    </li>
-                                    <li>Sprawy o rozliczanie korzyści i nakładów na nieruchomość</li>
-                                    <li>Zakładanie i uzgadnianie treści ksiąg wieczystych, wpisy w księgach wieczystych
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Prawo Spadkowe
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Stwierdzenia nabycia spadku na podstawie ustawy</li>
-                                <li>Zmiany postanowienia stwierdzającego nabycie spadku</li>
-                                <li>Odrzucenia spadku</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Prawo Rodzinne
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Rozwód</li>
-                                <li>Eksmisja współmałżonka</li>
-                                <li>Podział majątku wspólnego małżonków</li>
-                                <li>Ustalenie kontaktów z dziećmi</li>
-                                <li>Ustanowienie rodziny zastępczej</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Prawo Pracy
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li>Sprawy o odszkodowanie</li>
-                                <li>Sprawy o dyskryminację i mobbing</li>
-                                <li>Odszkodowania i świadczenia z tytułu wypadków przy pracy i chorób zawodowych</li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main>
+
+        <section class="section-history" id="section-history">
+            <h1 data-translate="practiceHistory"></h1><br>
+            <h4 data-translate="100yearsExperience"></h4>
+            <div class="section-history-text">
+                <p data-translate="practiceHistoryText1"></p>
+                <p data-translate="practiceHistoryText2"></p>
+                <p data-translate="practiceHistoryText3"></p>
+                <p data-translate="practiceHistoryText4"></p>
             </div>
-        </div>
-
-    </section>
-
-    <nav id="team">
-        <div class="container reveal">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <div class="container" id="container-history">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="font-weight-bold" data-translate="historyDate"></h2>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="700" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <img src="./jeremy-mcgilvrey-Mum-4dB0VsE-unsplash.jpg" alt="" id="img-member">
-                            <h1>First Name</h1>
-                            <h5>Radca prawny</h5>
-                            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Fuga suscipit harum aliquam amet neque veritatis sed ut architecto, deleniti praesentium
-                                minima nulla magnam officia labore, id doloremque, sequi nobis illo?</p>
-                            <br>
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-telephone" viewBox="0 0 16 16">
-                                    <path
-                                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                </svg> 123-456-789
-                                <br>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-envelope" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                                </svg> blabla@gmail.com
+                <div class="row">
+                    <div class="col col-timeline">
+                        <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title=""
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    data-original-title="1920">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">1920</p>
+                                    <span class="h6 text-muted mb-0 mb-lg-0" data-translate="1920"></span>
+                                </div>
                             </div>
-                            <br>
-                            <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModal">
-                                Pełna biografia
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Zamknij</button>
-                                        </div>
-                                    </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title=""
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    data-original-title="1945">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">1945</p>
+                                    <span class="h6 text-muted mb-0 mb-lg-0" data-translate="1945"></span>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title=""
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    data-original-title="1980">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">1980</p>
+                                    <span class="h6 text-muted mb-0 mb-lg-0" data-translate="1980"></span>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title=""
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    data-original-title="2000">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2000</p>
+                                    <span class="h6 text-muted mb-0 mb-lg-0" data-translate="2000"></span>
+                                </div>
+                            </div>
+                            <div class="timeline-step mb-0">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title=""
+                                    data-content="And here's some amazing content. It's very engaging. Right?"
+                                    data-original-title="2010">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2010</p>
+                                    <span class="h6 text-muted mb-0 mb-lg-0" data-translate="2010"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="500" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Second slide label</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./drew-beamer-kUHfMW8awpE-unsplash.jpg" width="500" height="600" class="d-block w-100"
-                            id="img-team" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Third slide label</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-team" id="section-team">
+            <div class="team-container">
+                <div>
+                    <h2 data-translate="ourTeam"></h2>
+                </div>
+                <div class="row">
+                    <div class="team">
+                        <figure class="team__shape">
+                            <img src="./image/william.jpg" alt="" class="team__img">
+                            <figcaption class="team__caption">
+                                William Harrison
+                            </figcaption>
+                        </figure>
+                        <div class="team__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small(1.5rem)">Senior Partner</h3>
+                            <p data-translate="William"></p>
+                            <div class="svg">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-telephone" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg> (903) 402-4033
+                                </span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg> williamharrison@libertylegalsolutions.com
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="row">
+                    <div class="team">
+                        <figure class="team__shape">
+                            <img src="./image/emily.jpg" alt="" class="team__img">
+                            <figcaption class="team__caption">
+                                Emily Sinclair
+                            </figcaption>
+                        </figure>
+                        <div class="team__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small(1.5rem)">Managing Partner</h3>
+                            <p data-translate="Emily"></p>
+                            <div class="svg">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-telephone" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg> (903) 402-4022
+                                </span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg> emilysinclair@libertylegalsolutions.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
 
-    <section>
-        <div class="container reveal" id="questions">
-            <h2>Jakieś pytania?</h2>
-            <div class="text-container">
-                <div class="container">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control shadow-sm bg-white rounded" id="name"
-                                placeholder="Enter your name">
+        </section>
+
+        <section class="section-offer" id="section-offer">
+            <section class="section-offer-container">
+                <div>
+                    <h2 data-translate="offer">Offer</h2>
+                </div>
+                <div class="row" id="row-offer">
+                    <div class="col" id="col-offer">
+                        <div class="card-offer">
+                            <div class="card-offer__side card-offer__side--front card-offer__side--front-1"
+                                data-translate="laborLaw">front</div>
+                            <div class="card-offer__side card-offer__side--back card-offer__side--back-1"
+                                data-translate="laborLawText">back</div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control shadow-sm bg-white rounded" id="email"
-                                placeholder="Enter your email">
+                    </div>
+                    <div class="col" id="col-offer">
+                        <div class="card-offer">
+                            <div class="card-offer__side card-offer__side--front card-offer__side--front-2"
+                                data-translate="civilLaw">front</div>
+                            <div class="card-offer__side card-offer__side--back card-offer__side--back-2"
+                                data-translate="civilLawText">back</div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control shadow-sm bg-white rounded" id="topic"
-                                placeholder="Enter your topic">
+                    </div>
+                    <div class="col" id="col-offer">
+                        <div class="card-offer">
+                            <div class="card-offer__side card-offer__side--front card-offer__side--front-3"
+                                data-translate="administrativeLaw">front</div>
+                            <div class="card-offer__side card-offer__side--back card-offer__side--back-3"
+                                data-translate="administrativeLawText">back</div>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control shadow bg-white rounded" id="message" rows="4"
-                                placeholder="Enter your message"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <div id="services">
+                <div class="organogram">
+                    <div class="main cc"><span data-translate="services"></span></div>
+                    <div class="sub  tl"><span data-translate="carAccidents"></span></div>
+                    <div class="sub  tc"><span data-translate="motorcycleAccidents"></span></div>
+                    <div class="sub  tr"><span data-translate="oilRigInjury"></span></div>
+                    <div class="sub  cl"><span data-translate="slipAndFall"></span></div>
+                    <div class="sub  cr"><span data-translate="constructionAccidents"></span></div>
+                    <div class="sub  bl"><span data-translate="uberAccidents"></span></div>
+                    <div class="sub  bc"><span data-translate="workInjuries"></span></div>
+                    <div class="sub  br"><span data-translate="bicycleAccidents"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-opinion" id="section-opinion">
+            <section class="section-opinion-container">
+                <div class="card colton">
+                    <div class="user-info">
+                        <div class="section-opinion-icon">
+                            <i class="icon-basic-message"></i>
                         </div>
-                        <button type="submit" class="btn btn-secondary" id="button-questions">Send</button>
-                    </form>
+                        <div class="info-content">
+                            <h3 id="name">JAMES</h3>
+                            <p id="Verified" data-translate="opinion1"></p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p data-translate="opinion1Text"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="user-info">
+                        <div class="section-opinion-icon">
+                            <i class="icon-basic-message"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 id="name">STEVEN</h3>
+                            <p id="Verified" data-translate="opinion2"></p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p data-translate="opinion2Text"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="user-info">
+                        <div class="section-opinion-icon">
+                            <i class="icon-basic-message"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 id="name">ALAN</h3>
+                            <p id="Verified" data-translate="opinion3"></p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p data-translate="opinion3Text"></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="section-contact" id="section-contact">
+            <div class="section-contact-title">
+                <h1 data-translate="contactButton"></h1>
+                <div class="textContact">
+                    <p data-translate="contactText"></p>
+                </div>
+            </div>
+            <div class="section-contact-icon">
+                <i class="icon-basic-mail-open-text"></i>
+            </div>
+            <div class="section-contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Additional Message"></textarea>
+                    </div>
+                    <br>
+                </form>
+                <div>
+                    <div class="section-contact-form-button">
+                        <button href="" class="btn-form">
+                            <span data-translate="send"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" fill="currentColor"
+                                class="bi bi-send" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg>
+                        </button>
+                    </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                        </svg>
+                        123 Freedom Boulevard, Suite 200,<br> Libertyville, Lawland 98765, United States
+                    </p>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        913-565-8000</p>
+                </div>
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li><span data-translate="week"></span> <br><span data-translate="hours"></span></li>
+                        <br>
+                        <li><span data-translate="weekend"></span><br><span data-translate="closed"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="copyright">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle"
+                viewBox="0 0 16 16">
+                <path
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+            </svg>
+            Liberty Legal Solutions
+        </div>
 
-    <section id="contact">
-        <div class="opening-hours">
-            <p>Pn. - Pt.: 8.00-16.00</p>
-            <p>Sob.: nieczynne</p>
-        </div>
-        <div class="address">
-            <p>ul. Bora Komorowskiego 2/2,</p>
-            <p>30-045 Kraków</p>
-        </div>
-        <div class="contact">
-            <p>sekretariat@kancelaria.pl</p>
-            <p>123-456-789</p>
-        </div>
-    </section>
-    <footer>
     </footer>
-    <button id="scrollToTop">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-            class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-            <path
-                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-        </svg>
-    </button>
+
+    <section class="fixed-bottom d-none d-sm-block">
+        <div class="container text-center">
+            <button id="scrollToTop">
+                <a href="#section-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                    </svg>
+                </a>
+            </button>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+    </script>
     <script src="./index.js"></script>
 </body>
 
