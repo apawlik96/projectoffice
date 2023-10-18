@@ -1,3 +1,4 @@
+
 var translations = {
   'en': {
       'team': 'Team',
@@ -132,3 +133,4 @@ polishButton.addEventListener('click', () => {
 
 var savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
 setLanguage(savedLanguage);
+

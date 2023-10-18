@@ -1,3 +1,4 @@
+
 *,
 *::after,
 *::before {
@@ -498,9 +499,7 @@ main{
   -moz-perspective: 150rem;
   position: relative;
   width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 5rem;
 }
 
 .card-offer__side{
